@@ -2,7 +2,7 @@ import mongoose, { Schema, model, models } from "mongoose";
 
 const userSchema = new Schema({
   name: { type: String },
-  link: { type: String },
+  link: { type: String }
   
 });
 
